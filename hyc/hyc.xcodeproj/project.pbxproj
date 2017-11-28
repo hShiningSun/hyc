@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0203C1B01FCD3B9D00DBAFFE /* hKVOFunction+swizzle.m in Sources */ = {isa = PBXBuildFile; fileRef = 0203C1A61FCD3B9D00DBAFFE /* hKVOFunction+swizzle.m */; };
+		0203C1B11FCD3B9D00DBAFFE /* hKVOFunction.m in Sources */ = {isa = PBXBuildFile; fileRef = 0203C1A81FCD3B9D00DBAFFE /* hKVOFunction.m */; };
+		0203C1B21FCD3B9D00DBAFFE /* hKVOProxy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0203C1AB1FCD3B9D00DBAFFE /* hKVOProxy.m */; };
+		0203C1B31FCD3B9D00DBAFFE /* hKVORuntimeRxtensions.m in Sources */ = {isa = PBXBuildFile; fileRef = 0203C1AD1FCD3B9D00DBAFFE /* hKVORuntimeRxtensions.m */; };
+		0203C1B41FCD3B9D00DBAFFE /* NSObject+KVO.m in Sources */ = {isa = PBXBuildFile; fileRef = 0203C1AF1FCD3B9D00DBAFFE /* NSObject+KVO.m */; };
+		0203C1B71FCD3C0500DBAFFE /* NSString+kvohelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 0203C1B61FCD3C0500DBAFFE /* NSString+kvohelper.m */; };
 		024C0D9C1FC5261200DDDCBF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 024C0D9B1FC5261200DDDCBF /* main.m */; };
 		024C0DA21FC5261200DDDCBF /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 024C0DA11FC5261200DDDCBF /* ViewController.m */; };
 		024C0DA51FC5261200DDDCBF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 024C0DA31FC5261200DDDCBF /* Main.storyboard */; };
@@ -58,6 +64,19 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0203C1A51FCD3B9D00DBAFFE /* hKVOFunction+swizzle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "hKVOFunction+swizzle.h"; sourceTree = "<group>"; };
+		0203C1A61FCD3B9D00DBAFFE /* hKVOFunction+swizzle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "hKVOFunction+swizzle.m"; sourceTree = "<group>"; };
+		0203C1A71FCD3B9D00DBAFFE /* hKVOFunction.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = hKVOFunction.h; sourceTree = "<group>"; };
+		0203C1A81FCD3B9D00DBAFFE /* hKVOFunction.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = hKVOFunction.m; sourceTree = "<group>"; };
+		0203C1A91FCD3B9D00DBAFFE /* hKVOmacro.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = hKVOmacro.h; sourceTree = "<group>"; };
+		0203C1AA1FCD3B9D00DBAFFE /* hKVOProxy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = hKVOProxy.h; sourceTree = "<group>"; };
+		0203C1AB1FCD3B9D00DBAFFE /* hKVOProxy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = hKVOProxy.m; sourceTree = "<group>"; };
+		0203C1AC1FCD3B9D00DBAFFE /* hKVORuntimeRxtensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = hKVORuntimeRxtensions.h; sourceTree = "<group>"; };
+		0203C1AD1FCD3B9D00DBAFFE /* hKVORuntimeRxtensions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = hKVORuntimeRxtensions.m; sourceTree = "<group>"; };
+		0203C1AE1FCD3B9D00DBAFFE /* NSObject+KVO.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+KVO.h"; sourceTree = "<group>"; };
+		0203C1AF1FCD3B9D00DBAFFE /* NSObject+KVO.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+KVO.m"; sourceTree = "<group>"; };
+		0203C1B51FCD3C0500DBAFFE /* NSString+kvohelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+kvohelper.h"; sourceTree = "<group>"; };
+		0203C1B61FCD3C0500DBAFFE /* NSString+kvohelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+kvohelper.m"; sourceTree = "<group>"; };
 		024C0D971FC5261200DDDCBF /* hyc.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = hyc.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		024C0D9B1FC5261200DDDCBF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		024C0DA01FC5261200DDDCBF /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
@@ -154,6 +173,26 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0203C1A41FCD3B9D00DBAFFE /* hKVO */ = {
+			isa = PBXGroup;
+			children = (
+				0203C1B51FCD3C0500DBAFFE /* NSString+kvohelper.h */,
+				0203C1B61FCD3C0500DBAFFE /* NSString+kvohelper.m */,
+				0203C1A51FCD3B9D00DBAFFE /* hKVOFunction+swizzle.h */,
+				0203C1A61FCD3B9D00DBAFFE /* hKVOFunction+swizzle.m */,
+				0203C1A71FCD3B9D00DBAFFE /* hKVOFunction.h */,
+				0203C1A81FCD3B9D00DBAFFE /* hKVOFunction.m */,
+				0203C1A91FCD3B9D00DBAFFE /* hKVOmacro.h */,
+				0203C1AA1FCD3B9D00DBAFFE /* hKVOProxy.h */,
+				0203C1AB1FCD3B9D00DBAFFE /* hKVOProxy.m */,
+				0203C1AC1FCD3B9D00DBAFFE /* hKVORuntimeRxtensions.h */,
+				0203C1AD1FCD3B9D00DBAFFE /* hKVORuntimeRxtensions.m */,
+				0203C1AE1FCD3B9D00DBAFFE /* NSObject+KVO.h */,
+				0203C1AF1FCD3B9D00DBAFFE /* NSObject+KVO.m */,
+			);
+			path = hKVO;
+			sourceTree = "<group>";
+		};
 		024C0D8E1FC5261200DDDCBF = {
 			isa = PBXGroup;
 			children = (
@@ -239,6 +278,7 @@
 		024C0DE31FC5268600DDDCBF /* Common */ = {
 			isa = PBXGroup;
 			children = (
+				0203C1A41FCD3B9D00DBAFFE /* hKVO */,
 				024C0DE41FC5268600DDDCBF /* GCD */,
 				024C0DE91FC5268600DDDCBF /* HUD */,
 				024C0DEC1FC5268600DDDCBF /* NetWorking */,
@@ -657,12 +697,17 @@
 			files = (
 				024C0E341FC5268600DDDCBF /* UIFont+custom.m in Sources */,
 				024C0E2F1FC5268600DDDCBF /* HUD.m in Sources */,
+				0203C1B41FCD3B9D00DBAFFE /* NSObject+KVO.m in Sources */,
 				024C0E2B1FC5268600DDDCBF /* BaseViewController.m in Sources */,
 				024C0E3A1FC5268600DDDCBF /* UIImage+imageURL.m in Sources */,
+				0203C1B21FCD3B9D00DBAFFE /* hKVOProxy.m in Sources */,
 				024C0E2D1FC5268600DDDCBF /* GCD.m in Sources */,
 				024C0E311FC5268600DDDCBF /* RequestSence.m in Sources */,
+				0203C1B01FCD3B9D00DBAFFE /* hKVOFunction+swizzle.m in Sources */,
+				0203C1B71FCD3C0500DBAFFE /* NSString+kvohelper.m in Sources */,
 				024C0E3F1FC5268600DDDCBF /* hButton.m in Sources */,
 				024C0E3E1FC5268600DDDCBF /* UIView+CGRectAndSize.m in Sources */,
+				0203C1B11FCD3B9D00DBAFFE /* hKVOFunction.m in Sources */,
 				024C0E361FC5268600DDDCBF /* NSString+helper.m in Sources */,
 				024C0E331FC5268600DDDCBF /* UserInfo.m in Sources */,
 				024C0E391FC5268600DDDCBF /* UIColor+func.m in Sources */,
@@ -673,6 +718,7 @@
 				024C0E351FC5268600DDDCBF /* NSDictionary+CheckValid.m in Sources */,
 				024C0E381FC5268600DDDCBF /* UIButton+Action.m in Sources */,
 				024C0E261FC5268600DDDCBF /* BaseNavigationController.m in Sources */,
+				0203C1B31FCD3B9D00DBAFFE /* hKVORuntimeRxtensions.m in Sources */,
 				024C0DA21FC5261200DDDCBF /* ViewController.m in Sources */,
 				024C0E301FC5268600DDDCBF /* RequestManager.m in Sources */,
 				024C0E461FC5274900DDDCBF /* AppDelegate+BootLogic.m in Sources */,
